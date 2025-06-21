@@ -26,9 +26,13 @@ function countdown() {
   const seconds = totalSeconds % 60;
 
   document.getElementById('days').textContent = days;
-  document.getElementById('hours').textContent = hours;
-  document.getElementById('mins').textContent = minutes;
-  document.getElementById('seconds').textContent = seconds;
+  document.getElementById('hours').textContent = formatTime(hours);
+  document.getElementById('mins').textContent = formatTime(minutes);
+  document.getElementById('seconds').textContent = formatTime(seconds);
+}
+
+function formatTime(timeFormat) {
+  return timeFormat < 10 ? `0${timeFormat}` : timeFormat;
 }
 
 countdown();
