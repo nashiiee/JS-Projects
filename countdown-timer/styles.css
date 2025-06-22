@@ -26,6 +26,8 @@ h1 {
 
 .count-down-container {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .bigtext {

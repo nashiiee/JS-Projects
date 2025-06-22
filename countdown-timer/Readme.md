@@ -51,9 +51,6 @@ function countdown() {
   const hours = Math.floor((totalSeconds / 3600) % 24);
   const minutes = Math.floor((totalSeconds / 60) % 60);
   const seconds = totalSeconds % 60;
-
-  document.getElementById('countdown').textContent =
-    `Time until New Year: ${days}d ${hours}h ${minutes}m ${seconds}s`;
 }
 ```
 - Calculates the difference between the target date and the current date in **seconds**.
