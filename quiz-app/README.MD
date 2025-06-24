@@ -48,7 +48,3 @@ quiz-app/
   Edit the `quizData` array in `script.js` to add, remove, or modify questions and answers.
 
 ---
-
-## Example
-
-![Quiz App Screenshot](screenshot.png) <!-- Add a screenshot if you have one -->
